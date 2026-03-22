@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Variáveis de ambiente
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testes
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
