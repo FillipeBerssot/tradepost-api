@@ -25,6 +25,9 @@ db-downgrade:
 lint:
 	poetry run ruff check app/ tests/
 
+lint-fix:
+	poetry run ruff check --fix app/ tests/
+
 format:
 	poetry run ruff format app/ tests/
 
